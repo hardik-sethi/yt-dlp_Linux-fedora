@@ -1,0 +1,2 @@
+Compression options, but are bad.
+Thumbnail addition is not working

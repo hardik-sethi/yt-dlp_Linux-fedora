@@ -1,0 +1,2 @@
+Thumbnail working
+mkv output
