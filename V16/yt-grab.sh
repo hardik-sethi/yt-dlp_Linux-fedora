@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # yt-grab — Interactive YouTube downloader
 # Optimized for Fedora/Linux with yt-dlp + ffmpeg + aria2c
+#not implemented --remote-components ejs:github \
 
 set -Eeuo pipefail
 
@@ -588,7 +589,6 @@ main() {
             --retry-sleep 3 \
             --socket-timeout 30 \
             --http-chunk-size 10M \
-            # --remote-components ejs:github \
             --compat-options no-live-chat \
             -o "$outdir/${outname}.%(ext)s" \
             "$url"
